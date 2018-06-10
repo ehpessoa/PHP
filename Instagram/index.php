@@ -5,8 +5,8 @@ header ('Content-type: text/html; charset=ISO-8859-1');
 use MetzWeb\Instagram\Instagram;
 // initialize class
 $instagram = new Instagram(array(
-    'apiKey' => 'b36f07dbf57f4eba93121cf8e1b147a8',
-    'apiSecret' => 'bccc14edb9bc4147a564dc348ab3f500',
+    'apiKey' => 'b36f07db7f4e31cf8e1b147a8',
+    'apiSecret' => 'bccc14edc4a564dc348ab3f500',
     'apiCallback' => 'http://apps.ehpessoa.com/instagram/success.php' // must point to success.php
 ));
 // create login URL
@@ -14,7 +14,7 @@ $loginUrl = $instagram->getLoginUrl();
 ?>
 <html>
 	<head>
-		<title>Mídias Sociais</title>		
+		<title>MÃ­dias Sociais</title>		
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="../assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="../assets/css/main.css" />
@@ -93,7 +93,7 @@ $loginUrl = $instagram->getLoginUrl();
 							</div>										
 												
 							<div class="align-center">									
-								<p>Você gostaria de conhecer melhor os seus clientes? Veja como prover serviços com a cara do seu cliente, utilize todo o potencial das redes sociais de forma fácil e com informações em tempo real. Faça o seu <em>cliente</em> se sentir <em>especial</em>.</p>								
+								<p>VocÃª gostaria de conhecer melhor os seus clientes? Veja como prover serviÃ§os com a cara do seu cliente, utilize todo o potencial das redes sociais de forma fÃ¡cil e com informaÃ§Ãµes em tempo real. FaÃ§a o seu <em>cliente</em> se sentir <em>especial</em>.</p>								
 								<a class="login" href="<?php echo $loginUrl ?>"><img src="../images/instagram-big.png" alt="Instagram logo"></a>
 								<p><br>Entre com a sua conta do Instagram</p>
 							</div>										
