@@ -15,7 +15,7 @@ use Facebook\HttpClients\FacebookCurlHttpClient;
 use Facebook\HttpClients\FacebookHttpable;
 
 // init app with app id and secret
-FacebookSession::setDefaultApplication( '1483697555271297','12b4d3f61f7d773ae86606e4628dfa1a' ); //it4mob.login
+FacebookSession::setDefaultApplication( '123456','12b4d3f61f7d773ae86e462a1a' );
 // login helper with redirect_uri
 $helper = new FacebookRedirectLoginHelper('http://apps.ehpessoa.com/facebook/fbconfig.php' );
 try {
