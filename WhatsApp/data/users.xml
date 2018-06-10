@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- 
+Messages are being encrypted so you won't be able to recognize messages sent to source number, 
+then, define here at 'reply' which number the receiver should use to reply back. Also, you can
+define a custom message used by app to automatic answers when messages come to source number.
+Example: Hi [name]! You sent a message to [source] but please send it again to [replyPhone]..
+--> 
+<root> 
+	<user> 
+		<username>EHP</username>
+		<password>avn</password>
+		<expires>99999999</expires> 		
+		<expiresMessage>Your password has been expired. Please get in contact with Service Desk.</expiresMessage> 
+		<source>5511971295334</source>		
+		<sourcePassword>RWZG2DSU7vvwvA83SI/NKyijqms=</sourcePassword>
+		<replyPhone>5511950254263</replyPhone> 
+		<replyName>EHP</replyName> 
+		<autoMessage>Olá [name], você nos enviou uma mensagem, mas não conseguiremos responder-la por este número, por favor, cadastre o número +[replyPhone] na agenda do seu celular para enviar suas as mensagens. [replyName].</autoMessage> 
+	</user> 
+	
+</root>
